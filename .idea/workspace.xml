@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/IbeforeE.java" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/IbeforeE.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,9 +30,11 @@
       <file leaf-file-name="IbeforeE.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/IbeforeE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="114">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -272,12 +275,12 @@
       <updated>1529186865354</updated>
       <workItem from="1529186867683" duration="37000" />
       <workItem from="1529201521212" duration="6522000" />
-      <workItem from="1529257440185" duration="4040000" />
+      <workItem from="1529257440185" duration="5875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10599000" />
+    <option name="totallyTimeSpent" value="12434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -359,9 +362,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/IbeforeE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="54" column="50" lean-forward="false" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
