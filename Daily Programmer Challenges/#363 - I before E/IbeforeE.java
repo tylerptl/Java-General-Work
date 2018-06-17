@@ -52,7 +52,7 @@ public class IbeforeE {
            }
            return true;
         }
-        if(str.contains("cei") && str.length() < 3){
+        if(str.contains("cei") && str.length() < 5){
            numTrue++;
            return true;
 
