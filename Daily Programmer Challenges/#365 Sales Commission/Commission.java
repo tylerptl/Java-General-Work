@@ -21,7 +21,7 @@ public class Commission {
         employees = new ArrayList<>();
     }
 
-    void fillTable() throws IOException {
+    void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
         String key;
         while((key = br.readLine()) != null){
             br.readLine();
@@ -67,13 +67,13 @@ public class Commission {
             int x = 1;
             temp = key.trim().split("\\s+");
 
-            if(temp.length != 0){
+            if(temp.length != 0){   // Checking for blank lines
                 for(Person p : employees){
-                    if(!p.getProfits().containsKey(temp[0])){
+                    if(!p.getProfits().containsKey(temp[0])){   // Check to see if the item has been entered yet
                         p.profits.put(temp[0], Integer.parseInt(temp[x]));
                     }else{
                         if(isRevenue){
-                            if(p.getProfits().get(temp[0]) >= Integer.parseInt(temp[x])){
+                            if(p.getProfits().get(temp[0]) >= Integer.parseInt(temp[x])){   // Checking if expenses outweigh earnings for this item
                                 p.profits.put(temp[0], Integer.parseInt(temp[x]) - p.profits.get(temp[0]));
                             }
                             else{

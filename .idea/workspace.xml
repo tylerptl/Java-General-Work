@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Commission.class" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Commission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/enable1.txt" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/enable1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Driver.java" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Driver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +27,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,8 +37,8 @@
       <file leaf-file-name="Commission.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +102,8 @@
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/logic.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Logic.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Driver.java" />
-        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" />
       </list>
     </option>
   </component>
@@ -118,8 +113,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="632" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="143" />
+    <option name="y" value="-25" />
     <option name="width" value="1295" />
     <option name="height" value="1057" />
   </component>
@@ -399,15 +395,16 @@
       <workItem from="1531525306223" duration="630000" />
       <workItem from="1531587711036" duration="1221000" />
       <workItem from="1531610299703" duration="8081000" />
-      <workItem from="1531627048008" duration="2127000" />
+      <workItem from="1531627048008" duration="2709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55086000" />
+    <option name="totallyTimeSpent" value="55668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="0" width="1295" height="1057" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,7 +419,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1837373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -802,16 +799,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
