@@ -28731,7 +28731,7 @@ commissariats
 commissaries
 commissars
 commissary
-commission
+commissions
 commissionaire
 commissionaires
 commissioned
@@ -85713,7 +85713,7 @@ logging
 loggings
 loggy
 logia
-logic
+Commission
 logical
 logicalities
 logicality

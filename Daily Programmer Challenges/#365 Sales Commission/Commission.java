@@ -2,138 +2,117 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Commission {
-    List<String> names;
-    int[][] values;
-    ArrayList<ArrayList<Integer>> sums;
-    ArrayList<String> products;
-    BufferedReader br;
-    boolean isRevenue;
-    int productCount;
+    private BufferedReader br;
+    private boolean isRevenue;
+    private List<String> names;
+    private ArrayList<Person> employees;
+    private static final Logger LOGGER = Logger.getLogger(Commission.class.getName());
 
-    public int[] getProfits() {
-        return profits;
+    public ArrayList<Person> getEmployees() {
+        return employees;
     }
 
-    int[] profits;
-
-
-    public List<String> getNames() {
-        return names;
+    Commission() throws FileNotFoundException {
+        br = new BufferedReader(new FileReader(new File("C:\\Users\\asdf\\Documents\\Programming\\Java Work\\Daily Programmer Challenges\\#365 Sales Commission\\input.txt")));
+        employees = new ArrayList<>();
     }
 
-    public ArrayList<String> getProducts() {
-        return products;
-    }
-
-
-
-    public Commission() throws IOException {
-       br = new BufferedReader(new FileReader(new File("C:\\Users\\asdf\\Documents\\Programming\\Java Work\\Daily Programmer Challenges\\#365 Sales Commission\\input.txt")));
-       names = new ArrayList<>();
-       products = new ArrayList<>();
-
-
-
-
-    }
-
-
-    void createTable() throws IOException {
+    void fillTable() throws IOException {
         String key;
         while((key = br.readLine()) != null){
             br.readLine();
             if(key.toLowerCase().equals("revenue")){
+
                 isRevenue = true;
                 populateNames();
-                if(profits == null){
-                    profits = new int[names.size()];
-                }
+                populateExpensesRevenue();
+            }else if(key.toLowerCase().equals("expenses")){
 
-                values = new int[names.size()][];
-                readInLines();
-            }
-            else if(key.toLowerCase().equals("expenses")){
                 isRevenue = false;
                 populateNames();
-                if(profits == null){
-                    profits = new int[names.size()];
-                }
-
-                readInLines();
-
-
+                populateExpensesRevenue();
             }
-
         }
+
     }
     void populateNames() throws IOException {
-        System.out.println("Adding names...\n\n");
+
         String key;
         if((key = br.readLine()) != null){
-            if(key.toLowerCase().equals("expenses") || key.toLowerCase().equals("revenue") || key.isEmpty()){
-                System.out.println("new table found");
-
+           key = key.trim();
+            if(names !=null){
+                return;
             }
-            key = key.trim();
-
             names = Arrays.asList(key.trim().split("\\s+"));
             for(String name : names){
-                System.out.println(name);
+                employees.add(new Person(name));
             }
 
         }
-
     }
-    void readInLines() throws IOException {
 
-        System.out.println("\n\nAdding products...\n\n");
-        values[productCount] = new int[names.size()];
-
+    void populateExpensesRevenue() throws IOException {
         String key;
         String[] temp;
-        while((key = br.readLine()) != null) {
+
+        while((key = br.readLine()) != null){
             if(key.toLowerCase().equals("expenses") || key.toLowerCase().equals("revenue") || key.isEmpty()){
-                break;
+                LOGGER.log(Level.FINE, "Invalid entry - exiting loop");
+                return;
             }
-            temp = key.split("\\s+");
-            System.out.println("Added " + temp[0]);
-            for(int i = 1; i < temp.length; i++){
-                if(isRevenue){
-                    profits[i-1] += Integer.parseInt(temp[i]);
-                }else{
-                    profits[i-1] -= Integer.parseInt(temp[i]);
+            int x = 1;
+            temp = key.trim().split("\\s+");
+
+            if(temp.length != 0){
+                for(Person p : employees){
+                    if(!p.getProfits().containsKey(temp[0])){
+                        p.profits.put(temp[0], Integer.parseInt(temp[x]));
+                    }else{
+                        if(isRevenue){
+                            if(p.getProfits().get(temp[0]) >= Integer.parseInt(temp[x])){
+                                p.profits.put(temp[0], Integer.parseInt(temp[x]) - p.profits.get(temp[0]));
+                            }
+                            else{
+                                p.profits.put(temp[0], 0);
+                            }
+                        }else if(!isRevenue){
+                            if(Integer.parseInt(temp[x]) >= p.getProfits().get(temp[0])){
+                                p.getProfits().put(temp[0], 0);
+                            }
+                            else{
+                                p.getProfits().put(temp[0], p.getProfits().get(temp[0]) - Integer.parseInt(temp[x]));
+                            }
+                        }
+                    }
+
+                    x++;
+
                 }
+            }
 
             }
-            products.add(temp[0]);
-            productCount++;
-
-
 
         }
 
+        void printCommission(){
+
+            System.out.printf("%10s", " ");
+            for(int i = 0; i < names.size(); i++){
+                System.out.printf("%10s", names.get(i));
+            }
+            System.out.println();
+            System.out.printf("Commission");
+            for(Person p : employees){
+                System.out.print(String.format("%10s", p.getCommissions()));
+            }
+
+
+        }
     }
 
-    void calcCommission(){
-        int[] com = new int[profits.length];
 
-        for(int j = 0; j < profits.length; j++){
-            com[j] = profits[j];
-        }
-        for(int i =0; i < com.length; i++){
-            if(com[i] <= 0){
-                com[i] = 0;
-            }
-            else{
-                com[i] = (int) (profits[i] * .062);
-            }
-        }
-        System.out.println("\n");
-        for(int n : com){
-            System.out.print( n +", ");
-        }
 
-    }
-}
