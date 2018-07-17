@@ -21,7 +21,7 @@ public class Commission {
         employees = new ArrayList<>();
     }
 
-    void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
+    public void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
         String key;
         while((key = br.readLine()) != null){
             br.readLine();
@@ -39,7 +39,7 @@ public class Commission {
         }
 
     }
-    void populateNames() throws IOException {
+    private void populateNames() throws IOException {
 
         String key;
         if((key = br.readLine()) != null){
@@ -55,7 +55,7 @@ public class Commission {
         }
     }
 
-    void populateExpensesRevenue() throws IOException {
+    private void populateExpensesRevenue() throws IOException {
         String key;
         String[] temp;
 
@@ -70,14 +70,14 @@ public class Commission {
             if(temp.length != 0){   // Checking for blank lines
                 for(Person p : employees){
                     if(!p.getProfits().containsKey(temp[0])){   // Check to see if the item has been entered yet
-                        p.profits.put(temp[0], Integer.parseInt(temp[x]));
+                        p.addToProfits(temp[0], Integer.parseInt(temp[x]));
                     }else{
                         if(isRevenue){
                             if(p.getProfits().get(temp[0]) >= Integer.parseInt(temp[x])){   // Checking if expenses outweigh earnings for this item
-                                p.profits.put(temp[0], Integer.parseInt(temp[x]) - p.profits.get(temp[0]));
+                                p.addToProfits(temp[0], Integer.parseInt(temp[x]) - p.checkInProfits(temp[0]));
                             }
                             else{
-                                p.profits.put(temp[0], 0);
+                                p.addToProfits(temp[0], 0);
                             }
                         }else if(!isRevenue){
                             if(Integer.parseInt(temp[x]) >= p.getProfits().get(temp[0])){
@@ -94,25 +94,25 @@ public class Commission {
                 }
             }
 
-            }
-
         }
 
-        void printCommission(){
-
-            System.out.printf("%10s", " ");
-            for(int i = 0; i < names.size(); i++){
-                System.out.printf("%10s", names.get(i));
-            }
-            System.out.println();
-            System.out.printf("Commission");
-            for(Person p : employees){
-                System.out.print(String.format("%10s", p.getCommissions()));
-            }
-
-
-        }
     }
+
+    public void printCommission(){
+
+        System.out.printf("%10s", " ");
+        for(int i = 0; i < names.size(); i++){
+            System.out.printf("%10s", names.get(i));
+        }
+        System.out.println();
+        System.out.printf("Commission");
+        for(Person p : employees){
+            System.out.print(String.format("%10s", p.getCommissions()));
+        }
+
+
+    }
+}
 
 
 
