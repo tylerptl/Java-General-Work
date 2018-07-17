@@ -1,3 +1,8 @@
+/**
+ * @author Tyler Crill
+ * @date 7/16/18
+ */
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +32,7 @@ public class Commission {
      * to add/subtract to the sales. Once an empty line is read in, or any invalid text, the reader will close.
      * @throws IOException
      */
-    public void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
+    protected void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
         String key;
         while((key = br.readLine()) != null){
             br.readLine();
