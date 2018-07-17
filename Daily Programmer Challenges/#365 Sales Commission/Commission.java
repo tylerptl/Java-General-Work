@@ -21,6 +21,12 @@ public class Commission {
         employees = new ArrayList<>();
     }
 
+    /**
+     * This method will initiate most of the other methods in this class as long as there is valid input. It will first read in a line
+     * and check for "revenue" or "expenses". Pending on which is found, it will set the respective boolean value which will be used below
+     * to add/subtract to the sales. Once an empty line is read in, or any invalid text, the reader will close.
+     * @throws IOException
+     */
     public void fillTable() throws IOException {   // Calling this will grab employee names as well as populate the table with their expenses + earnings
         String key;
         while((key = br.readLine()) != null){
@@ -37,8 +43,14 @@ public class Commission {
                 populateExpensesRevenue();
             }
         }
+        br.close();
 
     }
+
+    /**
+     * This method will pull in all names from the input
+     * @throws IOException
+     */
     private void populateNames() throws IOException {
 
         String key;
@@ -55,6 +67,13 @@ public class Commission {
         }
     }
 
+    /**
+     * This method will do most of the legwork for reading in and comparing expenses vs revenue. If the
+     * table is empty, the method will write whatever input it received first immediately. After reaching the
+     * second expense/revenue chart, it will then add/subtract accordingly and set to 0 any index in which
+     * the expenses were greater than revenue.
+     * @throws IOException
+     */
     private void populateExpensesRevenue() throws IOException {
         String key;
         String[] temp;
@@ -98,6 +117,9 @@ public class Commission {
 
     }
 
+    /**
+     * This method will print out a formatted table displaying what each person earned
+     */
     public void printCommission(){
 
         System.out.printf("%10s", " ");

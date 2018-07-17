@@ -4,15 +4,29 @@ public class Person {
     private HashMap<String, Integer> profits;
     private String name;
 
-    public void setProfits(HashMap<String, Integer> profits) {
-        this.profits = profits;
-    }
+
+    /**
+     * This method allows the user to add to the hashMap from outside classes
+     * @param str
+     * @param n
+     */
     public void addToProfits(String str, Integer n){
         profits.put(str, n);
     }
+
+    /**
+     * This method will check for the existence of an item type in the hashmap
+     * @param str
+     * @return
+     */
     public Integer checkInProfits(String str){
         return profits.get(str);
 
+    }
+
+
+    public void setProfits(HashMap<String, Integer> profits) {
+        this.profits = profits;
     }
 
     public String getName() {

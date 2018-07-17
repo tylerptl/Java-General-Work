@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Commission2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Commission.class" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Commission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java" />
     </list>
@@ -24,13 +21,13 @@
             <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="180">
-                    <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+                  <state relative-caret-position="510">
+                    <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                     <folding>
-                      <element signature="e#182#183#0" expanded="true" />
-                      <element signature="e#220#221#0" expanded="true" />
-                      <element signature="e#273#274#0" expanded="true" />
-                      <element signature="e#308#309#0" expanded="true" />
+                      <element signature="e#301#302#0" expanded="true" />
+                      <element signature="e#336#337#0" expanded="true" />
+                      <element signature="e#617#618#0" expanded="true" />
+                      <element signature="e#655#656#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -56,8 +53,8 @@
       <file leaf-file-name="Commission.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="-360">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -415,12 +412,12 @@
       <workItem from="1531610299703" duration="8081000" />
       <workItem from="1531627048008" duration="3321000" />
       <workItem from="1531683633856" duration="1128000" />
-      <workItem from="1531862314150" duration="414000" />
+      <workItem from="1531862314150" duration="750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57822000" />
+    <option name="totallyTimeSpent" value="58158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
@@ -808,25 +805,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java">
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="-360">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Commission.java">
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
           </folding>
         </state>
       </provider>
