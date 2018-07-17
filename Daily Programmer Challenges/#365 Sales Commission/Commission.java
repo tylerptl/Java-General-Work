@@ -49,7 +49,6 @@ public class Commission {
             }
         }
         br.close();
-
     }
 
     /**
@@ -68,7 +67,6 @@ public class Commission {
             for(String name : names){
                 employees.add(new Person(name));
             }
-
         }
     }
 
@@ -136,7 +134,6 @@ public class Commission {
         for(Person p : employees){
             System.out.print(String.format("%10s", p.getCommissions()));
         }
-
 
     }
 }

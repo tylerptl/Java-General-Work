@@ -5,6 +5,5 @@ public class Driver {
         Commission logic = new Commission();
         logic.fillTable();
         logic.printCommission();
-
     }
 }
