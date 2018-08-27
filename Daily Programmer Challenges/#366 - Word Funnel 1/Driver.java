@@ -31,6 +31,8 @@ public class Driver {
         }
         funnel.optionalOne(in, wordList);
 
+        funnel.bonus2("enable1.txt");
+
 
 
 
