@@ -1,4 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
+ * https://www.reddit.com/r/dailyprogrammer/comments/98ufvz/20180820_challenge_366_easy_word_funnel_1/
+ *
  * Given two strings of letters, determine whether the second can be made from the first
  * by removing one letter. The remaining letters must stay in the same order.
  *
@@ -11,8 +16,10 @@
  */
 
 public class funnel {
+    protected char[] inbound, outbound;
 
     funnel(){
+
 
     }
 
@@ -29,16 +36,9 @@ public class funnel {
                 return false;
             }
         }
-        char[] inbound, outbound;
+
         inbound = input.toCharArray();
         outbound = check.toCharArray();
-        for(char c : inbound){
-            System.out.print(c);
-        }
-        System.out.println("\n");
-        for(char c : outbound){
-            System.out.print(c);
-        }
 
         for(int i =0; i < outbound.length; i++){
             if(outbound[i] != inbound[i]){
@@ -48,9 +48,38 @@ public class funnel {
                 }
             }
         }
-        System.out.println("\nMatch found...");
+        System.out.println("\n("+check+") is a viable mutation of (" + input + ").");
         return true;
 
     }
+
+    void optionalOne(String input, List<String> list){
+        String resultString;
+        ArrayList<String> matchedWords = new ArrayList();
+
+        for(int i = 0; i < input.length(); i++){
+            // Prevent duplicate characters causing duplicate returns i.e boots returning bots twice
+            if(i>0 && input.charAt(i-1) == input.charAt(i)){
+                continue;
+            }
+            StringBuilder sb = new StringBuilder(input);
+            resultString = sb.deleteCharAt(i).toString();
+            if(list.contains(resultString)){
+                matchedWords.add(resultString);
+
+            }
+
+        }
+        //System.out.print(matchedWords.toArray());
+        if(matchedWords.size()>= 1){
+            System.out.print(matchedWords.get(0));
+        }
+        for(int i = 1; i < matchedWords.size(); i++){
+            System.out.print(", " + matchedWords.get(i));
+        }
+    }
+
+
+
 
 }
