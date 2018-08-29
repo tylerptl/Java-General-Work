@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/funnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/funnel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/funnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/funnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,41 +16,54 @@
     <session id="63548046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="33" />
+          <entry key="java" value="3654" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="3654" />
+          <entry key="PLAIN_TEXT" value="120" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/funnel.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/Driver.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="605">
+              <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,6 +116,8 @@
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#365 Sales Commission/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/funnel.java" />
+        <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java" />
       </list>
     </option>
   </component>
@@ -117,8 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
-    <option name="width" value="1342" />
+    <option name="x" value="-7" />
+    <option name="width" value="1166" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -127,8 +138,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,18 +181,22 @@
               <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Streams" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535411397250" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535571000666" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -201,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.StreamTutorial">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -240,9 +256,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoCompliments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoCompliments" />
-      <module name="Daily Programmer Challenges" />
+    <configuration name="StreamTutorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StreamTutorial" />
+      <module name="Java General Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TwoCompliments" />
       <item itemvalue="Application.DiceRoll" />
       <item itemvalue="Application.Ducci" />
       <item itemvalue="Application.Hey" />
       <item itemvalue="Application.Driver" />
+      <item itemvalue="Application.StreamTutorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamTutorial" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Hey" />
         <item itemvalue="Application.Ducci" />
         <item itemvalue="Application.DiceRoll" />
-        <item itemvalue="Application.TwoCompliments" />
       </list>
     </recent_temporary>
   </component>
@@ -328,25 +344,40 @@
       <workItem from="1535386417617" duration="1405000" />
       <workItem from="1535405116930" duration="3826000" />
       <workItem from="1535410143755" duration="523000" />
-      <workItem from="1535410940407" duration="346000" />
+      <workItem from="1535410940407" duration="986000" />
+      <workItem from="1535567997904" duration="2999000" />
     </task>
+    <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
+      <created>1535411363601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535411363601</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testing intellij VC - added code for bonus #2.">
+      <created>1535411426182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535411426182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77461000" />
+    <option name="totallyTimeSpent" value="81100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="0" width="1342" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="1166" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13962558" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22603978" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
       <window_info active="true" anchor="bottom" x="838" y="77" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" visible="true" weight="0.39194915" />
@@ -354,10 +385,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49234137" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51043844" side_tool="true" weight="0.4332627" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49791667" weight="0.32394367" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5027125" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4972875" weight="0.32394367" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -368,12 +400,46 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22603978" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
+      <window_info anchor="bottom" x="838" y="77" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49234137" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5027125" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4972875" weight="0.32394367" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing intellij VC - added code for bonus #2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing intellij VC - added code for bonus #2." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#363 - I before E/enable1.txt">
@@ -501,8 +567,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366 - Word Funnel 1/funnel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="331">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -561,7 +644,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Daily Programmer Challenges</last-edited>
+          <last-edited>Java General Practice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
