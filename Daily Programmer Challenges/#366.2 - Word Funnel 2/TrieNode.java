@@ -2,15 +2,11 @@ import java.util.HashMap;
 
 public class TrieNode {
     char c;
-    HashMap<Character ,TrieNode> children = new HashMap<>();
-    boolean isChild;
+    TrieNode[] arr;
+    boolean isEnd;
 
     public TrieNode(){
-
-    }
-
-    public TrieNode(char c){
-        this.c = c;
+        this.arr = new TrieNode[26];
     }
 
 

@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/TrieNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Trie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/TrieNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/TrieNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,59 +19,37 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="225">
-                    <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="63548046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5166" />
+          <entry key="java" value="7416" />
           <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5166" />
+          <entry key="JAVA" value="7416" />
           <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="16" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="16" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -74,39 +58,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java">
+        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#61#62#0" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java">
+        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="79" column="52" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="52" />
+            <state relative-caret-position="471">
+              <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +101,7 @@
       <find>values</find>
       <find>produ</find>
       <find>productcount</find>
+      <find>system</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,8 +130,9 @@
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java" />
-        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java" />
       </list>
     </option>
   </component>
@@ -182,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,17 +175,18 @@
             </path>
             <path>
               <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -223,12 +194,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535599543161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535825389691" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asdf\Documents\Programming\Java Work\Daily Programmer Challenges\#366.2 - Word Funnel 2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asdf\Documents\Programming\Java Work" />
     </key>
@@ -374,7 +348,8 @@
       <workItem from="1535410143755" duration="523000" />
       <workItem from="1535410940407" duration="986000" />
       <workItem from="1535567997904" duration="3378000" />
-      <workItem from="1535597623056" duration="1917000" />
+      <workItem from="1535597623056" duration="2211000" />
+      <workItem from="1535820431211" duration="5427000" />
     </task>
     <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
       <created>1535411363601</created>
@@ -394,13 +369,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83396000" />
+    <option name="totallyTimeSpent" value="89117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27789935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28446388" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info active="true" anchor="bottom" x="838" y="77" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" visible="true" weight="0.39194915" />
+      <window_info anchor="bottom" x="285" y="88" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,17 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -616,21 +580,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -645,10 +602,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java">
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/TrieNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="79" column="39" lean-forward="true" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
