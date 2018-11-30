@@ -1,0 +1,10 @@
+* The phonetic for (coincidings) after being run through m3 comes to (KNSTNKS) - which
+doesn't match the expected (KNSTNK) which would allow the finding of conceiting, conceding, coinciding,
+etc... These words are matched accordingly as can be checked in the addedToTable.txt file
+
+* Using a foreach loop in HashContainer to traverse an array of DictionaryWordHashes gives me ArrayIndexOOB
+yet when done manually everything works fine
+
+* Passing a var dictionaryFile to the file reader in hashContainer
+
+* getStats has a NPE issue
