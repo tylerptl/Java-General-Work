@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/funnel.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,33 +21,34 @@
     <session id="63548046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7416" />
+          <entry key="java" value="8766" />
           <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7416" />
+          <entry key="JAVA" value="8766" />
           <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -61,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
@@ -69,6 +76,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -125,6 +141,7 @@
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/funnel.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java" />
+        <option value="$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java" />
       </list>
     </option>
   </component>
@@ -145,8 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -186,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535826621349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543881701983" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -211,16 +228,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.BitwiseTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiceRoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiceRoll" />
-      <module name="Daily Programmer Challenges" />
+    <configuration name="BitwiseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitwiseTest" />
+      <module name="Java General Practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DiceRoll" />
       <item itemvalue="Application.Ducci" />
       <item itemvalue="Application.Hey" />
       <item itemvalue="Application.Driver" />
       <item itemvalue="Application.StreamTutorial" />
+      <item itemvalue="Application.BitwiseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitwiseTest" />
         <item itemvalue="Application.Driver" />
         <item itemvalue="Application.StreamTutorial" />
         <item itemvalue="Application.Hey" />
         <item itemvalue="Application.Ducci" />
-        <item itemvalue="Application.DiceRoll" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +360,7 @@
       <workItem from="1535597623056" duration="2211000" />
       <workItem from="1535820431211" duration="6025000" />
       <workItem from="1536078313224" duration="24000" />
+      <workItem from="1543877142449" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
       <created>1535411363601</created>
@@ -362,12 +380,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89739000" />
+    <option name="totallyTimeSpent" value="93776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29102844" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.297593" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,8 +394,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" x="285" y="88" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
+      <window_info anchor="bottom" x="108" y="86" width="848" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -616,6 +634,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -668,7 +693,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Daily Programmer Challenges</last-edited>
+          <last-edited>Java General Practice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
