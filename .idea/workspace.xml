@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
-      <change afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/RouteCipher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/TransitionCipher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java General Practice/BitwiseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java General Practice/BitwiseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/BalanceCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,35 +20,36 @@
     <session id="63548046">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="11" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="15" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10946" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="12604" />
           <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10946" />
-          <entry key="PLAIN_TEXT" value="120" />
+          <entry key="JAVA" value="12604" />
+          <entry key="PLAIN_TEXT" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="24" />
+          <entry key="java" value="31" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="31" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -60,36 +58,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java">
+        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java">
+        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="375">
+              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <folding>
+                <element signature="e#57#58#0" expanded="true" />
+                <element signature="e#83#84#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/MutableInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding>
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Container.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Driver.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -146,9 +145,11 @@
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#366.2 - Word Funnel 2/Trie.java" />
         <option value="$PROJECT_DIR$/Java General Practice/PriorityQueueTest/Solution.java" />
         <option value="$PROJECT_DIR$/Java General Practice/Bitwise Testing/BitwiseTest.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/MutableInt.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" />
-        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/MutableInt.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java" />
       </list>
     </option>
   </component>
@@ -158,7 +159,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -169,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,42 +184,30 @@
             <path>
               <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Daily Programmer Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="#364 - Ducci Sequence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Daily Programmer Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="#366.2 - Word Funnel 2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Daily Programmer Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="#372 - Perfectly Balanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data Structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="#375 - Card Flip" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java Work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java General Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Streams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548632710964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551749098025" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -392,7 +379,13 @@
       <workItem from="1547597588665" duration="928000" />
       <workItem from="1547835997758" duration="1278000" />
       <workItem from="1548375505377" duration="1274000" />
-      <workItem from="1548629764918" duration="2902000" />
+      <workItem from="1548629764918" duration="3142000" />
+      <workItem from="1549311533644" duration="1820000" />
+      <workItem from="1550262990886" duration="745000" />
+      <workItem from="1550515793492" duration="619000" />
+      <workItem from="1550790581980" duration="1010000" />
+      <workItem from="1550876605428" duration="1331000" />
+      <workItem from="1551745165008" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
       <created>1535411363601</created>
@@ -412,13 +405,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111294000" />
+    <option name="totallyTimeSpent" value="120950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.297593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15831557" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" x="94" y="195" width="1089" height="535" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
+      <window_info anchor="bottom" x="490" y="266" width="1083" height="529" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="79" column="52" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/Driver.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -651,9 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,36 +658,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" selection-start-line="11" selection-start-column="6" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java General Practice/Streams/StreamTutorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/MutableInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding>
-            <element signature="e#75#76#0" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java">
+    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Container.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Driver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/hashes/HashContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#57#58#0" expanded="true" />
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
