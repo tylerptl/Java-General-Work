@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class SolutionFind {
     private String[] getArr() {
         return arr;
@@ -9,22 +11,30 @@ public class SolutionFind {
 
     private String[] arr;
     private int length;
+    private ArrayList order;
 
     SolutionFind(String[] arr){
         setArr(arr);
-
     }
 
 
 
     protected void findSolutions(){
         for(String s: getArr()){
+            order = new ArrayList<Integer>();
             var sb = new StringBuilder(s);
             length = sb.length();
             for(int i = 0; i < length; i++){
                 sb = checkCard(sb);
                 System.out.println(sb.toString());
             }
+            if(sb.toString().contains("0")){                 //If the final string -which will be all '...' if solution has been found - contains a 0,
+                System.out.println("\n\nNo viable solution...");    // then that 0 exists on and island and thus has no solution
+            }
+            for(Object n : order){
+                System.out.print(n + " ");
+            }
+            System.out.println("\n\n");
         }
     }
 
@@ -36,6 +46,7 @@ public class SolutionFind {
             right = i + 1;
             if(input.charAt(i) == '1'){
                 input.setCharAt(i, '.'); // Remove card
+                order.add(i);
                 if(i != 0){
                     input.setCharAt(left, flipNeighbor(input.charAt(left)));    //Flip left neighbor
                 }if(i != input.length()-1){
@@ -43,6 +54,7 @@ public class SolutionFind {
                 }
                 break;
             }
+
         }
         return input;
     }

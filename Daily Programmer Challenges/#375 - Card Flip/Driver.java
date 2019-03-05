@@ -6,10 +6,10 @@ public class Driver {
                 "100001100101000"};
 
         String[] challengeInput = {"010111111111100100101000100110111000101111001001011011000011000"};  // Challenge input success
-        //var solutions = new SolutionFind(inputs);
-        var solutions = new SolutionFind(challengeInput);
+       // var solutions = new SolutionFind(inputs);
+        var solutionsChallenge = new SolutionFind(challengeInput);
 
-        solutions.findSolutions();
+        solutionsChallenge.findSolutions();
 
     }
 }

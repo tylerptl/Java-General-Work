@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/BalanceCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="12604" />
+          <entry key="java" value="13147" />
           <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12604" />
+          <entry key="JAVA" value="13147" />
           <entry key="PLAIN_TEXT" value="132" />
         </counts>
       </usages-collector>
@@ -57,7 +54,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -66,16 +63,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="-1">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#57#58#0" expanded="true" />
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/MutableInt.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#372 - Perfectly Balanced/BalanceCheck.java" />
-        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java" />
         <option value="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java" />
+        <option value="$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java" />
       </list>
     </option>
   </component>
@@ -207,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551749098025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551750047828" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -385,7 +384,7 @@
       <workItem from="1550515793492" duration="619000" />
       <workItem from="1550790581980" duration="1010000" />
       <workItem from="1550876605428" duration="1331000" />
-      <workItem from="1551745165008" duration="3891000" />
+      <workItem from="1551745165008" duration="4861000" />
     </task>
     <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
       <created>1535411363601</created>
@@ -405,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120950000" />
+    <option name="totallyTimeSpent" value="121920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -420,15 +419,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944915" />
-      <window_info anchor="bottom" x="490" y="266" width="1083" height="529" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" weight="0.39194915" />
+      <window_info active="true" anchor="bottom" x="1014" y="103" width="1083" height="529" id="Run" order="2" sideWeight="0.4895616" type="FLOATING" visible="true" weight="0.39194915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49234137" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5027125" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4972875" weight="0.32394367" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4972875" weight="0.32296136" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -689,12 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Container.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Driver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/hashes/HashContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -704,23 +697,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Driver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/sandbox/Container.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/SolutionFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="-1">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#57#58#0" expanded="true" />
             <element signature="e#83#84#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Daily Programmer Challenges/#375 - Card Flip/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
