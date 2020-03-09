@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="557a950f-257b-401b-9a3b-ff30c12399e9" name="Default" comment="Testing intellij VC - added code for bonus #2.">
+      <change afterPath="$PROJECT_DIR$/Database/Database.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Calendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Daily Programmer Challenges/havelHakimi.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
   <component name="ProjectId" id="1RITmrhFsmOwEWXRBukt7SYvdBS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563068713135" />
@@ -50,12 +52,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\asdf\Documents\Programming\Java Work" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asdf\Documents\Programming\Java Work\Java General Practice\Tutoring stuff\ReadingIn" />
       <recent name="C:\Users\asdf\Documents\Programming\Java Work\Java General Practice\Tutoring stuff" />
       <recent name="C:\Users\asdf\Documents\Programming\Java Work\Daily Programmer Challenges\#366.2 - Word Funnel 2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asdf\Documents\Programming\Java Work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,16 +73,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Homework10Shapes">
+  <component name="RunManager" selected="Application.Driver (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitwiseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitwiseTest" />
-      <module name="Java General Practice" />
+    <configuration name="BaumSweetSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaumSweetSequence" />
+      <module name="Daily Programmer Challenges" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="Database" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,14 +98,6 @@
     </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
-      <module name="Daily Programmer Challenges" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ducci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ducci" />
       <module name="Daily Programmer Challenges" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -109,9 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solver" />
-      <module name="Daily Programmer Challenges" />
+    <configuration name="Homework7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,18 +152,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Driver" />
-      <item itemvalue="Application.BitwiseTest" />
-      <item itemvalue="Application.Ducci" />
-      <item itemvalue="Application.Solver" />
       <item itemvalue="Application.Homework10Shapes" />
+      <item itemvalue="Application.Homework7" />
+      <item itemvalue="Application.BaumSweetSequence" />
+      <item itemvalue="Application.Driver (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Driver (1)" />
+        <item itemvalue="Application.BaumSweetSequence" />
         <item itemvalue="Application.Homework10Shapes" />
+        <item itemvalue="Application.Homework7" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.Solver" />
-        <item itemvalue="Application.Ducci" />
-        <item itemvalue="Application.BitwiseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,16 @@
       <workItem from="1569353779346" duration="2186000" />
       <workItem from="1569367545922" duration="651000" />
       <workItem from="1569858332828" duration="5000" />
-      <workItem from="1569970386723" duration="1023000" />
+      <workItem from="1569970386723" duration="1728000" />
+      <workItem from="1571179796330" duration="1714000" />
+      <workItem from="1571525014263" duration="1893000" />
+      <workItem from="1574626551152" duration="1532000" />
+      <workItem from="1576251329613" duration="4000" />
+      <workItem from="1577996668295" duration="654000" />
+      <workItem from="1579650859385" duration="2491000" />
+      <workItem from="1583346975796" duration="2000" />
+      <workItem from="1583638092673" duration="4457000" />
+      <workItem from="1583782812885" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="Testing intellij VC - added code for bonus #2.">
       <created>1535411363601</created>

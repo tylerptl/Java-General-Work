@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Cryptography/Cryptography.iml" filepath="$PROJECT_DIR$/Cryptography/Cryptography.iml" />
       <module fileurl="file://$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" filepath="$PROJECT_DIR$/Daily Programmer Challenges/Daily Programmer Challenges.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures/Data Structures.iml" filepath="$PROJECT_DIR$/Data Structures/Data Structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java General Practice/Java General Practice.iml" filepath="$PROJECT_DIR$/Java General Practice/Java General Practice.iml" />
     </modules>
   </component>
